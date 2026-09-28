@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale-1,0" />
+    <title>Student Enrollment form and DOM Mapping</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Software Engineering IT Enrollment</h1>
+    </header>
+    <main>
+      <!-- Acction represents the backend API route: Method dictates the HTTP verb-->
+      <form action="" method="post"></form>
+      <fieldset>
+        <legend>Trainee Identity</legend>
+        <div>
+          <label for="matricnumber">University matricaulation No:</label>
+          <!-- Pattern enforces 2 letters followed by 6 digits -->
+          <input
+            type="text"
+            id="matricaulation"
+            name="matricnumber"
+            pattern="[A-Za-z]{2}\d{6}"
+            title="Example: CS123456"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="dob">Date of Birth:</label>
+          <!-- Max restricts dates to past dates for valdity -->
+          <input type="date" id="dob" name="dob" max="2010-01-" required />
+        </div>
+      </fieldset>
+
+      <!-- Parent node 2: Technical Background Fieldset-->
+
+      <fieldset>
+        <legend>Curriculum Prefrences</legend>
+        <div>
+          <label for="track">Primary Track:</label>
+          <!-- Select dropdown node -->
+          <select name="track" id="track" required>
+            <option value="disabled selected">Select Track ...</option>
+            <option value="frontend">frontend Engineering</option>
+            <option value="backend">Backend architecture</option>
+            <option value="full-stack">Full-stack Development</option>
+        </select>
+        </div>
+        <div>
+            <p>Progamming Languages known</p>
+            <!-- Checkbox Sibling -->
+             <label for="Checkbox">
+                <input type="checkbox" name="languages" value="python" />Python
+
+             </label>
+
+        </div>
+      </fieldset>
+    </main>
+  </body>
+</html>

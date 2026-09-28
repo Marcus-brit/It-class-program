@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- Task 1 & 3: Container Div -->
+    <div>
+      <!-- Task 3: Logo Image with source and mandatory alt text -->
+      <img src="https://placeholder.com" alt="Company Logo" />
+
+      <h2>Account Login</h2>
+      <!-- Task 1: Form wrapper and semantic fields -->
+      <form action="#" method="POST">
+        <div>
+          <label for="email">Email Address:</label>
+          <!-- type="email" enforces browser validation -->
+          <input type="email" id="email" name="email" required />
+        </div>
+        <br />
+        <div>
+          <label for="password">Password:</label>
+          <!-- type="password" automatically masks the characters -->
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+          />
+        </div>
+        <br />
+        <!-- Submit button -->
+        <button type="submit">Login</button>
+      </form>
+
+      <!-- Task 3: Hyperlink to Registration Page -->
+      <p>Don't have an account? <a href="register.html">Register here</a></p>
+    </div>
+    <br />
+  </body>
+</html>
