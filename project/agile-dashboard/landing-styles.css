@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 25px;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.6;
+  color: brown;
+  padding: 20px;
+  background-color: #ee553e;
+  box-sizing: border-box;
+}
+
+.hero-header {
+  background-color: rgb(216, 20, 190);
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 5px;
+  border-radius: 600px;
+}
+
+.hero-container {
+  max-width: 80px;
+  width: 100%;
+  background-color: orange;
+  border-radius: 24px;
+  padding: 20px;
+  box-shadow: #1d4ed8;
+  border-style: double;
+}
+
+.hero-container h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+}
+
+.hero-container h4 {
+  font-size: large;
+  letter-spacing: -0.01em;
+  color: #2563eb;
+  text-align: left;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.hero-container p {
+  width: 100%;
+  max-width: 1950px;
+  white-space: normal;
+  word-break: keep-all;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  color: #000000;
+  font-weight: 700;
+}
+
+.comprehensive-guide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(8, 148, 137, 0.7);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+/* Call to Action Button styling */
+.cta-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.85rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: right;
+  border-radius: 600px;
+  transition-duration: 7s;
+}
+.btn-primary {
+  background-color: #2563eb;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb;
+  color: black;
+}
+
+.btn-secondary {
+  background-color: #2563eb;
+  color: #000000;
+}
+
+.btn-primary:hover {
+  background-color: azure;
+  color: #000000;
+}
+
+.btn-secondary:hover {
+  background-color: azure;
+  border-color: rgb(0, 0, 0);
+  transform: translate(-2px);
+}

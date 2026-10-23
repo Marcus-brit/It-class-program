@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.6;
+  color: orangered; /* Hex code */
+  padding: 20px;
+  background-color: rgb(2, 74, 56);
+}
+
+header {
+  background-color: rgb(216, 20, 190);
+  color: brown;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: ;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+header p {
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: chartreuse;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-top: 1rem;
+}
+
+/* Pseudo-class selector: :hover */
+nav ul li a {
+  color: #f7ab13;
+  text-decoration: none;
+  text-shadow: purple;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ecf0f1; /* Changes color on mouse hover */
+}
+/* 3. Section and Class Styling */
+section {
+  background-color: #feeb15;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 7px;
+  text-shadow: #feeb15;
+  border-radius: 28px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+  
+}
+
+.task-card{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border: 5px solid gray;
+}
+.task-card.urgent{
+    background-color: rgb(200, 58, 58);
+    border: 5px solid red;
+    border-radius: 8px;
+    padding: 20px;
+}
